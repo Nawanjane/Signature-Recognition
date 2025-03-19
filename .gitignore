@@ -36,10 +36,3 @@ env/
 # Ignore CSV files
 *.csv
 
-# Ignore image files
-*.png
-*.jpg
-*.jpeg
-*.bmp
-*.tif
-*.tiff
