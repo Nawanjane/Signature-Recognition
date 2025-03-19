@@ -1,0 +1,91 @@
+[2025-03-18 16:54:47] Starting signature verification process
+[2025-03-18 16:54:47] Genuine path exists: True
+[2025-03-18 16:54:47] Forged path exists: True
+[2025-03-18 16:54:47] Number of genuine signature images: 232
+[2025-03-18 16:54:47] Number of forged signature images: 310
+[2025-03-18 16:54:47] 
+Sample of signature data:
+[2025-03-18 16:54:47]        filename                                            path  type
+0  07102071.png  data/Dataset_Signature_Final/real/07102071.png  real
+1  08403084.png  data/Dataset_Signature_Final/real/08403084.png  real
+2  09301093.png  data/Dataset_Signature_Final/real/09301093.png  real
+3  00102001.png  data/Dataset_Signature_Final/real/00102001.png  real
+4  00301003.png  data/Dataset_Signature_Final/real/00301003.png  real
+[2025-03-18 16:54:47] 
+Basic statistics:
+[2025-03-18 16:54:47] Total number of signatures: 542
+[2025-03-18 16:54:47] Number of genuine signatures: 232
+[2025-03-18 16:54:47] Number of forged signatures: 310
+[2025-03-18 16:54:47] 
+Sample Signature Images:
+[2025-03-18 16:54:47] Sample images saved to /Users/leopard/Desktop/Cource_Work_2/outputs/figures/sample_signatures.png
+[2025-03-18 16:54:49] Loading and preprocessing images...
+[2025-03-18 16:54:52] Dataset loaded: 542 images, 128x128 pixels
+[2025-03-18 16:54:52] Preprocessed samples saved to /Users/leopard/Desktop/Cource_Work_2/outputs/figures/preprocessed_samples.png
+[2025-03-18 16:54:56] Training set: 379 images
+[2025-03-18 16:54:56] Validation set: 81 images
+[2025-03-18 16:54:56] Test set: 82 images
+[2025-03-18 16:54:56] Class weights: {0: 0.8732718894009217, 1: 1.1697530864197532}
+[2025-03-18 16:54:56] Skipping data augmentation as requested
+[2025-03-18 16:54:56] Model summary saved to /Users/leopard/Desktop/Cource_Work_2/outputs/reports/model_summary.txt
+[2025-03-18 16:54:56] Starting model training...
+[2025-03-18 16:55:05] Epoch 1: val_f1 = 0.0556
+[2025-03-18 16:55:07] Epoch 2: val_f1 = 0.1579
+[2025-03-18 16:55:09] Epoch 3: val_f1 = 0.4091
+[2025-03-18 16:55:12] Epoch 4: val_f1 = 0.3636
+[2025-03-18 16:55:14] Epoch 5: val_f1 = 0.2051
+[2025-03-18 16:55:16] Epoch 6: val_f1 = 0.2927
+[2025-03-18 16:55:18] Epoch 7: val_f1 = 0.6765
+[2025-03-18 16:55:20] Epoch 8: val_f1 = 0.6765
+[2025-03-18 16:55:23] Epoch 9: val_f1 = 0.6429
+[2025-03-18 16:55:25] Epoch 10: val_f1 = 0.6279
+[2025-03-18 16:55:27] Epoch 11: val_f1 = 0.6506
+[2025-03-18 16:55:29] Epoch 12: val_f1 = 0.6429
+[2025-03-18 16:55:31] Epoch 13: val_f1 = 0.6207
+[2025-03-18 16:55:33] Epoch 14: val_f1 = 0.6750
+[2025-03-18 16:55:36] Epoch 15: val_f1 = 0.6835
+[2025-03-18 16:55:38] Epoch 16: val_f1 = 0.6750
+[2025-03-18 16:55:40] Epoch 17: val_f1 = 0.6506
+[2025-03-18 16:55:42] Epoch 18: val_f1 = 0.7105
+[2025-03-18 16:55:44] Epoch 19: val_f1 = 0.7105
+[2025-03-18 16:55:47] Epoch 20: val_f1 = 0.6923
+[2025-03-18 16:55:49] Epoch 21: val_f1 = 0.6588
+[2025-03-18 16:55:51] Epoch 22: val_f1 = 0.6437
+[2025-03-18 16:55:53] Epoch 23: val_f1 = 0.7089
+[2025-03-18 16:55:55] Epoch 24: val_f1 = 0.6429
+[2025-03-18 16:55:57] Epoch 25: val_f1 = 0.6588
+[2025-03-18 16:55:57] Training history saved to CSV
+[2025-03-18 16:55:58] Training history plot saved to /Users/leopard/Desktop/Cource_Work_2/outputs/figures/training_history.png
+[2025-03-18 16:57:50] Finding optimal decision threshold...
+[2025-03-18 16:57:51] Threshold: 0.30, F1-score for Genuine: 0.6600
+[2025-03-18 16:57:51] Threshold: 0.35, F1-score for Genuine: 0.6383
+[2025-03-18 16:57:51] Threshold: 0.40, F1-score for Genuine: 0.6374
+[2025-03-18 16:57:51] Threshold: 0.45, F1-score for Genuine: 0.6591
+[2025-03-18 16:57:51] Threshold: 0.50, F1-score for Genuine: 0.7073
+[2025-03-18 16:57:51] Threshold: 0.55, F1-score for Genuine: 0.7342
+[2025-03-18 16:57:51] Threshold: 0.60, F1-score for Genuine: 0.7536
+[2025-03-18 16:57:51] Threshold: 0.65, F1-score for Genuine: 0.7619
+[2025-03-18 16:57:51] 
+Best threshold: 0.65 with F1-score: 0.7619
+[2025-03-18 16:57:51] Threshold analysis plot saved to /Users/leopard/Desktop/Cource_Work_2/outputs/figures/threshold_analysis.png
+[2025-03-18 16:57:53] 
+Classification Report with optimal threshold:
+[2025-03-18 16:57:53]               precision    recall  f1-score   support
+
+      Forged       0.80      0.91      0.85        47
+     Genuine       0.86      0.69      0.76        35
+
+    accuracy                           0.82        82
+   macro avg       0.83      0.80      0.81        82
+weighted avg       0.82      0.82      0.81        82
+
+[2025-03-18 16:57:53] Confusion matrix saved to /Users/leopard/Desktop/Cource_Work_2/outputs/figures/confusion_matrix.png
+[2025-03-18 16:57:57] 
+Plotting example predictions:
+[2025-03-18 16:57:58] Example predictions saved to /Users/leopard/Desktop/Cource_Work_2/outputs/figures/example_predictions.png
+[2025-03-18 16:58:09] Final model saved to: /Users/leopard/Desktop/Cource_Work_2/outputs/models/signature_verification_model.h5
+[2025-03-18 16:58:09] 
+Running demo prediction:
+[2025-03-18 16:58:10] Demo prediction saved to /Users/leopard/Desktop/Cource_Work_2/outputs/figures/demo_prediction.png
+[2025-03-18 16:58:14] True label: Forged
+[2025-03-18 16:58:14] Predicted: Forged with probability 0.4266

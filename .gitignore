@@ -1,0 +1,45 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environments
+venv/
+env/
+.venv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore model files
+*.h5
+*.hdf5
+*.pt
+*.pth
+
+# Ignore data directories
+
+# Ignore output directories
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore log files
+*.log
+
+# Ignore CSV files
+*.csv
+
+# Ignore image files
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tif
+*.tiff

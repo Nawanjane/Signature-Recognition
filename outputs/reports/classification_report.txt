@@ -1,0 +1,9 @@
+Classification Report with threshold 0.30:
+              precision    recall  f1-score   support
+
+      Forged       0.95      0.81      0.87        47
+     Genuine       0.79      0.94      0.86        35
+
+    accuracy                           0.87        82
+   macro avg       0.87      0.88      0.87        82
+weighted avg       0.88      0.87      0.87        82
