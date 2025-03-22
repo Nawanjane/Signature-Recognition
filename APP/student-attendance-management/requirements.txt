@@ -1,0 +1,11 @@
+streamlit
+firebase-admin
+pymongo
+opencv-python-headless
+pandas
+numpy
+pytesseract
+tensorflow
+Pillow
+matplotlib
+python-dotenv
