@@ -60,3 +60,22 @@ graph LR
     B --> F[ML Model]
 ```
 
+## 🧠 Model Architecture Details
+
+### CNN Architecture
+```ascii
+Input (128x128, grayscale)
+    ↓
+Conv2D (32 filters) + ReLU
+    ↓
+BatchNorm + MaxPool + Dropout(0.3)
+    ↓
+Conv2D (64 filters) + ReLU
+    ↓
+BatchNorm + MaxPool + Dropout(0.3)
+    ↓
+Dense (128) + ReLU
+    ↓
+Output (Sigmoid)
+```
+
